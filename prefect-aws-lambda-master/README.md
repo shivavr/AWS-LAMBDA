@@ -1,7 +1,17 @@
-# Event-driven Dataflow with AWS Lambda and Prefect
-
-This project demonstrates how to deploy several Prefect flows to serverless AWS Lambda functions.
-
-Some of those are scheduled, others are triggered by S3 put object event - all of that can be easily configured via YAML configuration thanks to the serverless framework.
-
-[Blog post](https://medium.com/the-prefect-blog/event-driven-data-pipelines-with-aws-lambda-prefect-and-github-actions-b3d9f84b1309) 
+This project showcases an innovative approach to event-driven data workflows by leveraging AWS Lambda and Prefect. It demonstrates:
+Key Features
+Seamless deployment of multiple Prefect flows as serverless Lambda functions
+Flexible execution triggers:
+Time-based scheduling
+S3 object creation events
+Streamlined configuration using YAML and the Serverless Framework
+Technical Highlights
+Event-Driven Architecture: Utilize S3 events to initiate data processing workflows automatically
+Serverless Scalability: Harness AWS Lambda's auto-scaling capabilities for cost-effective data operations
+Workflow Orchestration: Leverage Prefect's powerful flow management and monitoring capabilities
+Infrastructure as Code: Define and version your entire serverless setup using YAML configurations
+Benefits
+Reduced operational overhead with serverless architecture
+Improved responsiveness to data events
+Enhanced workflow visibility and management through Prefect
+Simplified deployment and configuration process
